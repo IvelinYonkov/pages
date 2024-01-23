@@ -1,0 +1,39 @@
+[module]
+[[module.imports]]
+  path = 'hugo-theme-nightfall'
+
+
+
+published = false
+readingTime = false
+
+
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/gohugoio"
+icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://www.example.com"
+
+[[params.social]]
+key = 2
+name = "mastodon"
+url = "https://www.example.com"
+rel = "me"  # You can also add rel to social link
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:email@example.com"
+
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
